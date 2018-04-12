@@ -1,0 +1,92 @@
+﻿@page
+@model IndexModel
+@{
+}
+<link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
+
+<div class="">
+    @*<div class="page-title">
+            <div class="title_left">
+                <h3>分类管理</h3>
+            </div>
+        </div>*@
+
+    <div class="clearfix"></div>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4">
+            <div class="x_panel" style="height:600px;">
+                <div class="x_title">
+                    <h2>模块分类</h2>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="jstree_demo_div"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+            <div class="x_panel" style="height:600px;">
+                <div class="x_title">
+                    <h2>分类列表</h2>
+                    <div class="nav btn-group navbar-right">
+                        <button class="btn btn-sm btn-danger bg-green" type="button"><i class="fa fa-plus"></i> 新增</button>
+                        <button class="btn btn-sm btn-danger" type="button" data-placement="top" data-toggle="tooltip" data-original-title="确认删除？"><i class="fa fa-trash-o"></i>删除</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th width="40" style="text-align:center"><input type="checkbox" /></th>
+                                <th>名称</th>
+                                <th>code</th>
+                                <th>类型</th>
+                                <th>描述</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th width="40" style="text-align:center"><input type="checkbox" /></th>
+                                <td>Otto</td>
+                                <td>Otto</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td width="140">
+                                    <a class="btn btn-primary btn-xs"><i class="fa fa-edit"></i>编辑</a>
+                                    <a class="btn btn-danger btn-xs"><i class="fa fa-close"></i>删除</a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/jstree/jstree.min.js"></script>
+    <script>
+        // direct data
+        $('#jstree_demo_div').jstree({
+            'core': {
+                'data': [
+                    'Simple root node',
+                    {
+                        'id': 'node_2',
+                        'text': 'Root node with options',
+                        'state': { 'opened': true, 'selected': true },
+                        'children': [{ 'text': 'Child 1' }, 'Child 2']
+                    }
+                ]
+            }
+        });
+    </script>
+}

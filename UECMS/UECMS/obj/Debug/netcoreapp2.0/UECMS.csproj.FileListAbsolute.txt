@@ -1,0 +1,11 @@
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\bin\Debug\netcoreapp2.0\UECMS.deps.json
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\bin\Debug\netcoreapp2.0\UECMS.runtimeconfig.json
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\bin\Debug\netcoreapp2.0\UECMS.runtimeconfig.dev.json
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\bin\Debug\netcoreapp2.0\UECMS.dll
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\bin\Debug\netcoreapp2.0\UECMS.pdb
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\obj\Debug\netcoreapp2.0\UECMS.csproj.CoreCompileInputs.cache
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\obj\Debug\netcoreapp2.0\UECMS.AssemblyInfoInputs.cache
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\obj\Debug\netcoreapp2.0\UECMS.AssemblyInfo.cs
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\obj\Debug\netcoreapp2.0\UECMS.dll
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\obj\Debug\netcoreapp2.0\UECMS.pdb
+D:\GitNowWork\UEMasterCMS\UECMS\UECMS\obj\Debug\netcoreapp2.0\UECMS.csprojResolveAssemblyReference.cache
